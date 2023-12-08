@@ -32,7 +32,7 @@ jobs:
         
     - name: Push Docker Image
       run: |
-        docker push klerith/docker-graphql:2.0.1
+        docker push juanpatron/docker-graphql:2.0.1
       
     
     
