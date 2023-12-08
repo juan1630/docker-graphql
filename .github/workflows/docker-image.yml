@@ -32,7 +32,7 @@ jobs:
         docker build -t juanpatron/docker-graphql:0.1.2  .
     - name: Push Docker image
       run: |
-        docker push -t juanpatron/docker-graphql:0.1.2  .
+        docker push juanpatron/docker-graphql:0.1.2  .
            
-   # - name: Build the Docker image
-    #  run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+  # - name: Build the Docker image
+  # run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
